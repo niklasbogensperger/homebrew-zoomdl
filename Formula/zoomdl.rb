@@ -5,28 +5,48 @@ class Zoomdl < Formula
   # homepage "https://github.com/Battleman/zoomdl"
   homepage "https://github.com/niklasbogensperger/zoomdl"
   # url "https://github.com/Battleman/zoomdl/..."
-  url "https://github.com/niklasbogensperger/zoomdl/archive/refs/tags/v2023.01.03_homebrew_2.tar.gz"
+  url "https://github.com/niklasbogensperger/zoomdl/archive/refs/tags/v2023.01.03_homebrew_3.tar.gz"
   # sha256 "..."
-  sha256 "e04cf1e129e4726edc2f087b62915a1766cb52493950077fe15b7cad06bccd25"
-  version "2023.01.03_homebrew_2"
+  sha256 "a6398c20fd28a54f250642cb52aee67ca71459ea372208c51e3cd6e6ea30833d"
+  version "2023.01.03_homebrew_3"
   license "GPL-3.0-only"
   head "https://github.com/Battleman/zoomdl.git", branch: "master"
 
   depends_on "python@3.10"
 
+  resource "certifi" do
+    url "https://files.pythonhosted.org/packages/37/f7/2b1b0ec44fdc30a3d31dfebe52226be9ddc40cd6c0f34ffc8923ba423b69/certifi-2022.12.7.tar.gz"
+    sha256 "35824b4c3a97115964b408844d64aa14db1cc518f6562e8d7261699d1350a9e3"
+  end
+
+  resource "charset-normalizer" do
+    url "https://files.pythonhosted.org/packages/a1/34/44964211e5410b051e4b8d2869c470ae8a68ae274953b1c7de6d98bbcf94/charset-normalizer-2.1.1.tar.gz"
+    sha256 "5a3d016c7c547f69d6f81fb0db9449ce888b418b5b9952cc5e6e66843e9dd845"
+  end
+
+  resource "idna" do
+    url "https://files.pythonhosted.org/packages/8b/e1/43beb3d38dba6cb420cefa297822eac205a277ab43e5ba5d5c46faf96438/idna-3.4.tar.gz"
+    sha256 "814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4"
+  end
+
   resource "requests" do
-    url "https://files.pythonhosted.org/packages/f5/4f/280162d4bd4d8aad241a21aecff7a6e46891b905a4341e7ab549ebaf7915/requests-2.23.0.tar.gz"
-    sha256 "b3f43d496c6daba4493e7c431722aeb7dbc6288f52a6e04e7b6023b0247817e6"
+    url "https://files.pythonhosted.org/packages/a5/61/a867851fd5ab77277495a8709ddda0861b28163c4613b011bc00228cc724/requests-2.28.1.tar.gz"
+    sha256 "7c5599b102feddaa661c826c56ab4fee28bfd17f5abca1ebbe3e7f19d7c97983"
+  end
+
+  resource "urllib3" do
+    url "https://files.pythonhosted.org/packages/c2/51/32da03cf19d17d46cce5c731967bf58de9bd71db3a379932f53b094deda4/urllib3-1.26.13.tar.gz"
+    sha256 "c083dd0dce68dbfbe1129d5271cb90f9447dea7d52097c6e0126120c521ddea8"
   end
 
   resource "demjson3" do
-    url "https://files.pythonhosted.org/packages/a1/09/4d20c71c1fbf091dc56315368d69a7d46cedf02002adf8e3c87b8e311f0a/demjson3-3.0.5.tar.gz"
-    sha256 "ab9aabdd85695f3684fc296f39766a2730f6c8de81d23f7048073dfe2f616d80"
+    url "https://files.pythonhosted.org/packages/f7/d2/6a81a9b5311d50542e11218b470dafd8adbaf1b3e51fc1fddd8a57eed691/demjson3-3.0.6.tar.gz"
+    sha256 "37c83b0c6eb08d25defc88df0a2a4875d58a7809a9650bd6eee7afd8053cdbac"
   end
 
   resource "tqdm" do
-    url "https://files.pythonhosted.org/packages/e0/98/e3fbad184a671b51d5a873da486362884e7205eeeed1f597c48731efd122/tqdm-4.50.2.tar.gz"
-    sha256 "69dfa6714dee976e2425a9aab84b622675b7b1742873041e3db8a8e86132a4af"
+    url "https://files.pythonhosted.org/packages/c1/c2/d8a40e5363fb01806870e444fc1d066282743292ff32a9da54af51ce36a2/tqdm-4.64.1.tar.gz"
+    sha256 "5f4f682a004951c1b450bc753c710e9280c5746ce6ffedee253ddbcbf54cf1e4"
   end
 
   def install
