@@ -15,6 +15,7 @@ Using python to create a self-contained binary:
 
 ```shell
 ./devscripts.sh build
+./devscripts.sh install
 ```
 
 Using python to create a wheel to be installed via pip:
