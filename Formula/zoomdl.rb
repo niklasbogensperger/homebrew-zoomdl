@@ -5,10 +5,10 @@ class Zoomdl < Formula
   # homepage "https://github.com/Battleman/zoomdl"
   homepage "https://github.com/niklasbogensperger/zoomdl"
   # url "https://github.com/Battleman/zoomdl/..."
-  url "https://github.com/niklasbogensperger/zoomdl/archive/refs/tags/v2023.01.03.tar.gz"
-  version "2023.01.03"
+  url "https://github.com/niklasbogensperger/zoomdl/archive/refs/tags/v2023.01.03a.tar.gz"
+  version "2023.01.03a"
   # sha256 "..."
-  sha256 "b818a7f05e9e3180de19711ca81a54cd7586ff7407dbc819bf7255bdf3ea4415"
+  sha256 "d09958983a214348b2fd3aaf215d1435a22b08b2f6b5dab7320307f11a4864ba"
   license "GPL-3.0-only"
 
   depends_on "python@3.10"
