@@ -5,10 +5,10 @@ class Zoomdl < Formula
   # homepage "https://github.com/Battleman/zoomdl"
   homepage "https://github.com/niklasbogensperger/zoomdl"
   # url "https://github.com/Battleman/zoomdl/..."
-  url "https://github.com/niklasbogensperger/zoomdl/archive/refs/tags/v2023.01.03_homebrew.tar.gz"
+  url "https://github.com/niklasbogensperger/zoomdl/archive/refs/tags/v2023.01.03_homebrew_2.tar.gz"
   # sha256 "..."
-  sha256 "1fa0edff136d7bb384cccc0513d473e232335d1dae16e5da2ae4bf698049098c"
-  version "2023.01.03_homebrew"
+  sha256 "e04cf1e129e4726edc2f087b62915a1766cb52493950077fe15b7cad06bccd25"
+  version "2023.01.03_homebrew_2"
   license "GPL-3.0-only"
   head "https://github.com/Battleman/zoomdl.git", branch: "master"
 
