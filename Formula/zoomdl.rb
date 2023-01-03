@@ -53,7 +53,7 @@ class Zoomdl < Formula
   end
 
   test do
-    system "#{bin}/zoomdl", "-f", "zoom_tutorial_getting_started", "-u", "https://livetraining.zoom.us/rec/play/78Ytfruppj03EoeRswSDU_dxW43ofaisgXIWqfVYnxu2BXlSMFf0YuQUarf_OXJhEbPFJVjDP8_UBJy4"
-    assert_predicate testpath/"zoom_tutorial_getting_started.mp4", :exist?
+    system "#{bin}/zoomdl", "--simulate", "--dump-pagemeta", "-f", "zoom_tutorial_getting_started", "-u", "https://livetraining.zoom.us/rec/play/78Ytfruppj03EoeRswSDU_dxW43ofaisgXIWqfVYnxu2BXlSMFf0YuQUarf_OXJhEbPFJVjDP8_UBJy4"
+    assert_predicate testpath/"zoom_tutorial_getting_started.json", :exist?
   end
 end
