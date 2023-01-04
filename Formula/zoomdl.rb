@@ -8,7 +8,7 @@ class Zoomdl < Formula
   url "https://github.com/niklasbogensperger/zoomdl/archive/refs/tags/v2023.01.04_homebrew.tar.gz"
   version "2023.01.04_homebrew"
   # sha256 "..."
-  sha256 "ab3b5c41bcd3b95ea888d3f67020a8161a6e377a22566acd1f62fad4bc27873e"
+  sha256 "52543c50809620b6d2048b947060ee4a2bf2c08ce06376fcdc1e8bd2339fe8e2"
   license "GPL-3.0-only"
 
   depends_on "python@3.10"
