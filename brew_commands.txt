@@ -1,0 +1,32 @@
+general
+-------
+
+brew developer on     before starting
+brew developer off    when done
+brew cleanup          after every install/uninstall operation
+brew doctor           to check the brew system
+
+
+installing
+----------
+
+brew install --build-from-source --verbose --debug zoomdl
+brew install --build-bottle --verbose --debug zoomdl
+
+
+auditing
+--------
+
+brew audit --new zoomdl
+
+
+testing
+-------
+
+brew test zoomdl
+
+
+uninstalling
+------------
+
+brew uninstall zoomdl
