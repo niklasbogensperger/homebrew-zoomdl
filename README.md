@@ -1,4 +1,6 @@
-# homebrew-zoomdl
+# homebrew-zoomdl (archived)
+
+## THIS FORMULA REPO IS ARCHIVED DUE TO ARCHIVAL OF TARGET REPO
 
 To install [zoomdl](https://github.com/niklasbogensperger/zoomdl) using Homebrew:
 
